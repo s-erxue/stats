@@ -1,0 +1,19 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "An NPM library for statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Eric Xue",
+    "email": "eric.xue@hotmail.com",
+    "url": "https://s-erxue.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-erxue/stats/issues"
+  },
+  "homepage": "https://github.com/s-erxue/stats#readme"
+}
