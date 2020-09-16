@@ -33,8 +33,13 @@ class NoDataError extends Error {
  */
 function mean(data) {
 	if(data.length !== 0) {
-		return data.reduce((a, b) => a+b)
+		return data.reduce((a, b) => a+b) / data.length;
 	} else {
-		
+		throw new NoDataError();
 	}
+}
+
+module.exports = {
+	NoDataError,
+	mean
 }
