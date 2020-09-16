@@ -24,3 +24,17 @@ class NoDataError extends Error {
 		const date = new Date();
 	}
 }
+
+/**
+ * Arithmetic mean
+ * @param {number[]} data
+ * @returns {number}
+ * @throws {NoDataError}
+ */
+function mean(data) {
+	if(data.length !== 0) {
+		return data.reduce((a, b) => a+b)
+	} else {
+		
+	}
+}
