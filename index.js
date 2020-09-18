@@ -21,7 +21,7 @@ class NoDataError extends Error {
 
 		this.name = "NoDataError";
 		this.message = message;
-		const date = new Date();
+		this.date = new Date();
 	}
 }
 
